@@ -408,3 +408,39 @@ h3 {
     font-size: 1.6rem;
   }
 }
+
+/* projects */
+.feature {
+  gap: 4rem 2rem;
+  margin: 12rem 0;
+}
+
+.feature:first-of-type {
+  margin-top: 6rem;
+}
+
+.feature__heading {
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .feature:nth-of-type(even) .feature__content {
+    order: 2;
+  }
+}
+
+/* Showcase Block */
+@media screen and (min-width: 768px) {
+  .block-showcase .grid {
+    grid-template-columns: 50% 50%;
+  }
+
+  .block-showcase__image {
+    justify-self: end;
+  }
+
+  .block-showcase__image > img {
+    width: auto;
+    max-width: 700px;
+  }
+}
