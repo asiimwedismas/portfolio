@@ -317,3 +317,13 @@ h3 {
     margin: 0 2rem;
   }
 }
+
+/* Sign-up Callout */
+.callout-signup {
+  transform: translateY(5rem);
+}
+
+.image-logo {
+  width: 55px;
+  height: 55px;
+}
