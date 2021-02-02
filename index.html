@@ -2,29 +2,36 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>My Works</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Asiimwe Dismas" />
+    <meta property="og:title" content="Portfolio of Asiimwe Dismas" />
+    <meta property="og:description" content="Portfolio of Asiimwe Dismas" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://" />
+    <title>Portfolio of Asiimwe Dismas</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
-
-    <p class="text-my-name">
-        Asiimwe Dismas
-    </p>
-    <p class="text-title">
-        Android | Full-stack Web Developer
-    </p>
-    <p class="text-introduction">
-        Hello I am a software developer! I can help you build a product, featre or website. Look through some of my work
-        and
-        experience! If you like what you see and have project you need coded, don’t hesistate to contact me.
-    </p>
-    <p class="text-my-portfolio">
-        My Portfolio
-    </p>
+    <header>
+        <nav class="nav collapsible">
+            <a class="nav__brand" href="/"><img class="image-logo" src="images/logo.png" alt="" /></a>
+            <svg class="icon icon--white nav__toggler">
+                <use href="images/sprite.svg#menu"></use>
+            </svg>
+            <ul class="list nav__list collapsible__content">
+                <li class="nav__item"><a href="#intro">Intro</a></li>
+                <li class="nav__item"><a href="#portfolio">Portfolio</a></li>
+                <li class="nav__item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
 </body>
 
