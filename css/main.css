@@ -91,7 +91,7 @@ a {
 }
 
 .link-arrow::after {
-  content: "-->";
+  /* content: "-->"; */
   margin-left: 5px;
   transition: margin 0.15s;
 }
